@@ -29,13 +29,18 @@
 ## Installation
 
 ```bash
+<<<<<<< HEAD
 $ npm install
+=======
+$ pnpm install
+>>>>>>> master
 ```
 
 ## Running the app
 
 ```bash
 # development
+<<<<<<< HEAD
 $ npm run start
 
 # watch mode
@@ -43,12 +48,22 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+=======
+$ pnpm run start
+
+# watch mode
+$ pnpm run start:dev
+
+# production mode
+$ pnpm run start:prod
+>>>>>>> master
 ```
 
 ## Test
 
 ```bash
 # unit tests
+<<<<<<< HEAD
 $ npm run test
 
 # e2e tests
@@ -56,6 +71,15 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+=======
+$ pnpm run test
+
+# e2e tests
+$ pnpm run test:e2e
+
+# test coverage
+$ pnpm run test:cov
+>>>>>>> master
 ```
 
 ## Support
